@@ -4,7 +4,9 @@ This is an example of how to verify cryptographic license keys in C# and .NET.
 
 This example verifies the `RSA_2048_PKCS1_PSS_SIGN_V2` scheme.
 
-(For an example of verifying an `ED25519_SIGN` key, please see [this gist](https://gist.github.com/ezekg/e96ef9c71a8f97b9ffcb487b73bfe248)).
+For an example of verifying RSA PKCS1 v1.5 using `System.Security.Cryptography`, see [this gist](https://gist.github.com/ezekg/567756b8658f8a2e16a61604484ea608).
+
+For an example of verifying an `ED25519_SIGN` key, please see [this gist](https://gist.github.com/ezekg/e96ef9c71a8f97b9ffcb487b73bfe248).
 
 ## Running the example
 
